@@ -1,0 +1,46 @@
+.App {
+    min-width: 330px;
+}
+
+button {
+    padding: auto;
+    width: 100%;
+    background-color: #cd9042;
+    border: none;
+    border-radius: 2px;
+    box-shadow: -5px 5px 10px 2px;
+
+}
+
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    cursor: grabbing;
+    background-color: aliceblue;
+    color: #cd9042;
+    box-shadow: -1px 1px 1px 2px;
+
+}
+
+a {
+    text-decoration: none;
+    border: 2px solid #131921;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+a:active {
+    cursor: grabbing;
+    border: 2px solid navy;
+    background-color: #cd9042;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}

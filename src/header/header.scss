@@ -1,0 +1,147 @@
+@media screen and (max-width: 1073px) {
+    .header {
+        flex-direction: column;
+        min-width: 260px;
+
+        form {
+            flex-direction: row;
+            min-width: 100px;
+
+        }
+
+
+    }
+
+
+}
+
+.footer {
+    position: fixed;
+    background-image: url("../background3.png");
+    color: #ffffff;
+    text-align: center;
+    min-width: 260px;
+    bottom: 0;
+    width: 100%;
+
+}
+
+
+.header {
+    background-image: url("../background3.png");
+    min-width: 314px;
+
+    a {
+        color: white;
+        border: none;
+    }
+
+    .logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+
+        a:active {}
+    }
+
+
+
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    justify-content: space-around;
+
+    img {
+        border: none;
+        padding-top: 10px;
+        height: 100px;
+
+    }
+
+    img:hover {
+        cursor: pointer;
+    }
+
+
+
+    img:active {
+        cursor: grabbing;
+
+        background-color: #cd9042;
+    }
+
+    form {
+
+        display: flex;
+        flex: 1;
+        align-items: center;
+        border-radius: 24px;
+        width: 60vw;
+
+    }
+
+    input {
+        height: 12px;
+        padding: 10px;
+        border: none;
+        width: 100%;
+    }
+
+    input:focus {
+        outline: none;
+    }
+
+    .header-search-icon {
+        padding: 5px;
+        height: 22px;
+        border: none;
+        background-color: #1060A8;
+    }
+
+    a {
+
+        padding: none;
+    }
+
+    a:hover {}
+
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: row;
+
+    .options {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
+
+        .line1 {
+            color: rgba($color: #ffffff, $alpha: 0.9);
+        }
+
+        .line2 {
+            color: white;
+            font-weight: bold;
+        }
+    }
+
+    .basket {
+
+
+        display: flex;
+        flex-direction: row;
+        color: #ffffff;
+        align-items: center;
+
+        span {
+            padding: 10px;
+        }
+
+    }
+}
